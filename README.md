@@ -10,7 +10,7 @@
 6. [Auswerten](#paragraph5)  
 
 ## Installierte Applikationen <a name="applikationen"></a>
-VirtualBox 
+VirtualBox  <br>
 Vagrant
 Visualstudio-Code
 Git-Client
