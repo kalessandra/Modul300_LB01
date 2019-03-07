@@ -37,7 +37,6 @@ Code:  <br>
 vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64  <br>
 Vagrantfile erzeugen: <br>
 vagrant init ubuntu/xenial64
-jaj
 
 ## Versionsverwaltung / Git <a name="paragraph4"></a>
 The second paragraph text
