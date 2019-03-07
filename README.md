@@ -1,7 +1,7 @@
 # Dokumentation LB01 Modul 300 Kalasch
 
 # Table of contents
-1. [Applikationen](#applikationen)
+1. [Installierte Applikationen](#applikationen)
 2. [Planen](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
 3. [Entscheiden](#paragraph2)
@@ -9,8 +9,12 @@
 5. [Kontrollieren](#paragraph4)
 6. [Auswerten](#paragraph5)  
 
-## Applikationen <a name="applikationen"></a>
-Some introduction text, formatted in heading 2 style
+## Installierte Applikationen <a name="applikationen"></a>
+VirtualBox 
+Vagrant
+Visualstudio-Code
+Git-Client
+SSH-Key für Client erstellt
 
 ## Planen <a name="paragraph1"></a>
 The first paragraph text
