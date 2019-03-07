@@ -2,12 +2,13 @@
 
 # Table of contents
 1. [Installierte Applikationen](#applikationen)
-2. [Planen](#paragraph1)
+2. [Linux](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
-3. [Entscheiden](#paragraph2)
-4. [Realisieren](#paragraph3)
-5. [Kontrollieren](#paragraph4)
-6. [Auswerten](#paragraph5)  
+3. [Virtualisierung](#paragraph2)
+4. [Vagrant](#paragraph3)
+5. [Versionsverwaltung / Git](#paragraph4)
+6. [Mark Down](#paragraph5)
+7. [Systemsicherheit](#paragraph6)  
 
 ## Installierte Applikationen <a name="applikationen"></a>
 VirtualBox  <br>
@@ -16,20 +17,23 @@ Visualstudio-Code  <br>
 Git-Client  <br>
 SSH-Key für Client erstellt  <br>
 
-## Planen <a name="paragraph1"></a>
+## Linux <a name="paragraph1"></a>
 The first paragraph text
 
 ### Sub paragraph <a name="subparagraph1"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-## Entscheiden <a name="paragraph2"></a>
+## Virtualisierung <a name="paragraph2"></a>
 The second paragraph text
 
-## Realisieren <a name="paragraph3"></a>
+## Vagrant <a name="paragraph3"></a>
 The second paragraph text
 
-## Kontrollieren <a name="paragraph4"></a>
+## Versionsverwaltung / Git <a name="paragraph4"></a>
 The second paragraph text
 
-## Auswerten <a name="paragraph5"></a>
+## Mark Down <a name="paragraph5"></a>
+The second paragraph text
+
+## Systemsicherheit <a name="paragraph6"></a>
 The second paragraph text
