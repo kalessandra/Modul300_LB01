@@ -11,10 +11,10 @@
 
 ## Installierte Applikationen <a name="applikationen"></a>
 VirtualBox  <br>
-Vagrant
-Visualstudio-Code
-Git-Client
-SSH-Key für Client erstellt
+Vagrant  <br>
+Visualstudio-Code  <br>
+Git-Client  <br>
+SSH-Key für Client erstellt  <br>
 
 ## Planen <a name="paragraph1"></a>
 The first paragraph text
