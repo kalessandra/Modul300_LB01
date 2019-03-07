@@ -1,7 +1,7 @@
 # Dokumentation LB01 Modul 300 Kalasch
 
 # Table of contents
-1. [Informieren](#informieren)
+1. [Applikationen](#applikationen)
 2. [Planen](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
 3. [Entscheiden](#paragraph2)
@@ -9,7 +9,7 @@
 5. [Kontrollieren](#paragraph4)
 6. [Auswerten](#paragraph5)  
 
-## Informieren <a name="informieren"></a>
+## Applikationen <a name="applikationen"></a>
 Some introduction text, formatted in heading 2 style
 
 ## Planen <a name="paragraph1"></a>
