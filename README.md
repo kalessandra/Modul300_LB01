@@ -35,6 +35,7 @@ Vagrantfile erzeugen:  <br>
 Ubuntu Xenial 64 installation  <br>
 Code:  <br>
 vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64  <br>
+![Alt-Text](/Users/aless/Repository/screen1.png)
 Vagrantfile erzeugen: <br>
 vagrant init ubuntu/xenial64
 
