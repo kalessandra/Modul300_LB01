@@ -58,6 +58,12 @@ mysql -h localhost -u root -proot wordpress_test
 
 | Befehle | Beschreibung
 | ------- | -----------
+| vagrant init | Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile
+| vagrant up | Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile
+| 
+| 
+| 
+| 
 
 
 
