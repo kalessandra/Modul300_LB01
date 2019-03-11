@@ -7,6 +7,7 @@
     1. [Sub paragraph](#subparagraph2)
 3. [Virtualisierung](#paragraph2)
 4. [Vagrant](#paragraph3)
+   1. [Installationsanleitung](#subparagraph3)
 5. [Versionsverwaltung / Git](#paragraph4)
 6. [Mark Down](#paragraph5)
 7. [Systemsicherheit](#paragraph6)  
@@ -32,11 +33,24 @@ The second paragraph text
 
 ## Vagrant <a name="paragraph3"></a>
 Vagrantfile erzeugen:  <br>
-Ubuntu Xenial 64 installation  <br>
-Code:  <br>
-vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64  <br>
-Vagrantfile erzeugen: <br>
-vagrant init ubuntu/xenial64
+Unter Vagrantfile
+
+### Vagrantfile <a name="subparagraph3"></a>
+vagrant ssh
+
+apt-get install -f
+
+apt-get install apache2
+
+apt-get install php5
+
+apache file bearbeitet als test
+
+mysqladmin create wordpress_test --user=root --password=root --host=127.0.0.1 --protocol=tcp
+
+apt-get update
+
+mysql -h localhost -u root -proot wordpress_test
 
 ## Versionsverwaltung / Git <a name="paragraph4"></a>
 The second paragraph text
