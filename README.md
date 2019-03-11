@@ -56,6 +56,14 @@ mysql -h localhost -u root -proot wordpress_test
 
 ### Vagrant Befehle <a name="subparagraph4"></a>
 
+| Befehle | Beschreibung
+| ------- | -----------
+|
+|
+|
+
+
+
 ## Versionsverwaltung / Git <a name="paragraph4"></a>
 The second paragraph text
 
