@@ -35,7 +35,7 @@ The second paragraph text
 Vagrantfile erzeugen:  <br>
 Unter Vagrantfile
 
-### Vagrantfile <a name="subparagraph3"></a>
+### Installationsanleitung <a name="subparagraph3"></a>
 vagrant ssh
 
 apt-get install -f
