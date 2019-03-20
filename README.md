@@ -4,14 +4,17 @@
 1. [Installierte Applikationen](#applikationen)
    1. [GitHub Account](#subparagraph1)
 2. [Linux](#paragraph1)
-    1. [Sub paragraph](#subparagraph2)
 3. [Virtualisierung](#paragraph2)
 4. [Vagrant](#paragraph3)
-   1. [Installationsanleitung](#subparagraph3)
-   2. [Vagrantbefehle](#subparagraph4)
-5. [Versionsverwaltung / Git](#paragraph4)
-6. [Mark Down](#paragraph5)
-7. [Systemsicherheit](#paragraph6)  
+   1. [Installationsanleitung](#subparagraph2)
+   2. [Vagrantbefehle](#subparagraph3)
+5. [Testing](#paragraph4)
+6. [Umgebung](#paragraph5)
+7. [Versionsverwaltung / Git](#paragraph6)
+8. [Mark Down](#paragraph7)
+9. [Systemsicherheit](#paragraph8)
+10. [Vergleich Vorwissen](#paragraph9)  
+11. [Refelxion](#paragraph10)   
 
 ## Installierte Applikationen <a name="applikationen"></a>
 VirtualBox  <br>
@@ -21,40 +24,35 @@ Git-Client  <br>
 SSH-Key für Client erstellt  <br>
 
 ### GitHub Account <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
+Ein GitHub Account wurde erstellt.
 
 ## Linux <a name="paragraph1"></a>
-The first paragraph text
+Ich habe jetzt schon häufiger mit Linux gearbeitet, desshalb ist es nicht so schwer, die Befehle für diverse Installationen usw. zu wissen. 
 
-### Sub paragraph <a name="subparagraph2"></a>
-This is a sub paragraph, formatted in heading 3 style
 
 ## Virtualisierung <a name="paragraph2"></a>
-The second paragraph text
+Ich habe schon in diversen Modulen das Thema Virtualisierung gehabt. Wir haben Server, Worksations, etc. virtualiesiert.  <br>
+Unter Virtualisierung versteht man die Bereitstellung von physikalischen Hardwareressourcen für virtuelle Maschinen. Dabeikann es sich um ein oder mehrere eigenständige Gastsysteme handeln. Die Gastsysteme („VMs“= Virtual Machines) wissen nichts von ihrer virtuellen Existenz und verhalten sich wie „echte“ Server.
 
 ## Vagrant <a name="paragraph3"></a>
-Vagrantfile erzeugen:  <br>
-Unter Vagrantfile
+Vagrant wird zum Erstellen und Verwalten von virtuellen Maschienen verwendet. Vagrant wird über eine Shell gesteuert. 
 
-### Installationsanleitung <a name="subparagraph3"></a>
-vagrant ssh
-
-apt-get install -f
-
-apt-get install apache2
-
-apt-get install php5
-
-apache file bearbeitet als test
-
-mysqladmin create wordpress_test --user=root --password=root --host=127.0.0.1 --protocol=tcp
-
-apt-get update
-
-mysql -h localhost -u root -proot wordpress_test
+### Installationsanleitung <a name="subparagraph2"></a>
+vagrant box add ubuntu/trusty64 --name ubuntu/trusty64  <br>
+vagrant init ubuntu/trust64  <br>
+vagrant up  <br>
+vagrant ssh  <br>
+apt-get update  <br>
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'  <br>
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'  <br>
+apt-get install -y mysql-client mysql-server  <br>
+mysqladmin create modul300lb01 --user=root --password=root --host=127.0.0.1 --protocol=tcp  <br>
+mysql -h localhost -u root -proot modul300lb01test  <br>
+apt-get install ufw  <br>
+sudo ufw --force enable  <br>
 
 
-### Vagrant Befehle <a name="subparagraph4"></a>
+### Vagrant Befehle <a name="subparagraph3"></a>
 
 | Befehle | Beschreibung
 | ------- | -----------
@@ -67,15 +65,30 @@ mysql -h localhost -u root -proot wordpress_test
 | vagrant destroy | Stoppt die Virtuelle Maschine und zerstört sie.
 
 
+## Testing <a name="paragraph4"></a>
+| Testfall | Funktioniert / Nicht Funktioniert
+| ------- | -----------
+| Datenbank erstellen | Eine Datenbank konnte erfolgreich erstellt werden
+| Installation läuft ohne Fehler | Die Installation der Datenbank läuft ohne Fehler
+| Firewall Installation erfolgreich | Die Firewall wurde erfolgreich installiert
+
+## Umgebung <a name="paragraph5"></a>
+Meine VM ist eine einfache Datenbank. Auf meiner VM läuft MySQL. Im Vagrantfile steht, was alles gemacht wurde. Auf diese Datenbank kann man via SSH zugreifen.
 
 
 
+## Versionsverwaltung / Git <a name="paragraph6"></a>
+Auf Github sieht man wenn ich etwas hochgeladen oder verändert habe. 
 
-## Versionsverwaltung / Git <a name="paragraph4"></a>
+## Mark Down <a name="paragraph7"></a>
+Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
+
+## Systemsicherheit <a name="paragraph8"></a>
 The second paragraph text
 
-## Mark Down <a name="paragraph5"></a>
-The second paragraph text
+## Vergleich Vorwissen <a name="paragraph9"></a>
+Vor diesem Modul hatte ich mich nicht gross mit Vagrant auseinandergesetzt, weil ich es noch nicht kannte. Dadurch ist es eher schwer für mich, mich damit ausaneinander zu setzten. In diesem Modul habe ich es aber kennengelert und weiss jetzt auch wie ich es verwenden kann. Ich habe viel neues dazu gelerent.
 
-## Systemsicherheit <a name="paragraph6"></a>
-The second paragraph text
+
+## Reflexion <a name="paragraph10"></a>
+Es war schwer, sich mit Vagrant auseinanderzusetzten, weil ich das noch nie verwendet habe. Ich hatte am Anfag Schwierigkeiten, eine VM aufzusetzten, weil es nie so funktioniert hat, wie es sollte. Später mit Hilfe von Recherchen und auch dem Lehrer, habe ich es geschafft, eine VM aufzusetzten und sie machte auch das was sie sollte. Mit Markdown hatte ich keine Probleme, weil es nicht sehr schwierig ist damit zu arbeiten. Diese LB hat mir gezeigt, was man mit Vagrant und Markdown alles machen kann.
