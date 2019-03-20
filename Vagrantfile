@@ -70,5 +70,7 @@ Vagrant.configure("2") do |config|
      apt-get install -y mysql-client mysql-server
 	 mysqladmin create modul300lb01 --user=root --password=root --host=127.0.0.1 --protocol=tcp
 	 mysql -h localhost -u root -proot modul300lb01
+	 apt-get install ufw
+	 sudo ufw --force enable
    SHELL
 end
