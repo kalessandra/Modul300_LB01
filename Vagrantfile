@@ -72,5 +72,6 @@ Vagrant.configure("2") do |config|
 	 mysql -h localhost -u root -proot modul300lb01
 	 apt-get install ufw
 	 sudo ufw --force enable
+	 sudo ufw allow 80/tcp
    SHELL
 end
