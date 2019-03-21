@@ -85,7 +85,7 @@ Auf Github sieht man wenn ich etwas hochgeladen oder verändert habe.
 Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
 
 ## Systemsicherheit <a name="paragraph8"></a>
-The second paragraph text
+Meine VM ist durch eine Firewall geschützt. Diese Firewall hat nur die nötigen Ports offen, die sie braucht.
 
 ## Vergleich Vorwissen <a name="paragraph9"></a>
 Vor diesem Modul hatte ich mich nicht gross mit Vagrant auseinandergesetzt, weil ich es noch nicht kannte. Dadurch ist es eher schwer für mich, mich damit ausaneinander zu setzten. In diesem Modul habe ich es aber kennengelert und weiss jetzt auch wie ich es verwenden kann. Ich habe viel neues dazu gelerent.
