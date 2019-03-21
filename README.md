@@ -50,6 +50,7 @@ mysqladmin create modul300lb01 --user=root --password=root --host=127.0.0.1 --pr
 mysql -h localhost -u root -proot modul300lb01test  <br>
 apt-get install ufw  <br>
 sudo ufw --force enable  <br>
+sudo ufw allow 80/tcp <br>
 
 
 ### Vagrant Befehle <a name="subparagraph3"></a>
